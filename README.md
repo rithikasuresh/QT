@@ -1,2 +1,1 @@
-# repo-exercise
-repo-exercise
+# QT Projects
