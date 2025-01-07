@@ -1,9 +1,0 @@
-# ninja log v6
-12	346	1736252563065161998	currency_converter_autogen/timestamp	89219aac7e345299
-12	346	1736252563065161998	currency_converter_autogen/mocs_compilation.cpp	89219aac7e345299
-12	346	1736252563065161998	/Users/rithikasuresh/qt_projects/currency_converter/build/Qt_6_8_1_for_macOS-Debug/currency_converter_autogen/timestamp	89219aac7e345299
-12	346	1736252563065161998	/Users/rithikasuresh/qt_projects/currency_converter/build/Qt_6_8_1_for_macOS-Debug/currency_converter_autogen/mocs_compilation.cpp	89219aac7e345299
-347	1275	1736252563074603221	CMakeFiles/currency_converter.dir/main.cpp.o	21d65c6d716c1eb3
-347	1278	1736252563074435518	CMakeFiles/currency_converter.dir/currency_converter_autogen/mocs_compilation.cpp.o	77ace84efcaaa021
-347	1402	1736252563074705551	CMakeFiles/currency_converter.dir/mainwindow.cpp.o	4f9b584f1e22f402
-1402	1584	1736252564129208148	currency_converter.app/Contents/MacOS/currency_converter	d725dbafe349ae73
