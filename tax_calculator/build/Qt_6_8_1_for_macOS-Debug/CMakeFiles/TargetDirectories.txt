@@ -1,0 +1,9 @@
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/tax_calculator.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/tax_calculator_autogen_timestamp_deps.dir
+/Users/rithikasuresh/qt_projects/tax_calculator/build/Qt_6_8_1_for_macOS-Debug/CMakeFiles/tax_calculator_autogen.dir

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_currency_converter_FILE /Users/rithikasuresh/qt_projects/currency_converter/build/Qt_6_8_1_for_macOS-Debug/currency_converter.app/Contents/MacOS/currency_converter)
+set(__QT_DEPLOY_TARGET_currency_converter_TYPE EXECUTABLE)
