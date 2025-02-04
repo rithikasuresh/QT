@@ -20,16 +20,18 @@ MainWindow::~MainWindow()
 
 int MainWindow::incomeTaxSlab(int taxableIncome)
 {
-    if (taxableIncome <= 300000) {
+    if (taxableIncome <= 400000) {
         return 0;
-    } else if (taxableIncome <= 700000) {
+    } else if (taxableIncome <= 800000) {
         return 5;
-    } else if (taxableIncome <= 1000000) {
-        return 10;
     } else if (taxableIncome <= 1200000) {
+        return 10;
+    } else if (taxableIncome <= 1600000) {
         return 15;
-    } else if (taxableIncome <= 1500000) {
+    } else if (taxableIncome <= 2000000) {
         return 20;
+    } else if (taxableIncome <= 2400000) {
+        return 25;
     } else {
         return 30;
     }
@@ -39,24 +41,28 @@ int MainWindow::taxCalculator(int taxableIncome, int taxSlab)
 {
     int totalTax = 0;
 
-    if (taxSlab == 10) {
-        totalTax += (700000 - 300000) * 0.05;
-        totalTax += (taxableIncome - 700000) * 0.10;
-    } else if (taxSlab == 15) {
-        totalTax += (700000 - 300000) * 0.05;
-        totalTax += (1000000 - 700000) * 0.10;
-        totalTax += (taxableIncome - 1000000) * 0.15;
+    if (taxSlab == 15) {
+        totalTax += (800000 - 400000) * 0.05;
+        totalTax += (1200000 - 800000) * 0.10;
+        totalTax += (taxableIncome - 1200000) * 0.15;
     } else if (taxSlab == 20) {
-        totalTax += (700000 - 300000) * 0.05;
-        totalTax += (1000000 - 700000) * 0.10;
-        totalTax += (1200000 - 1000000) * 0.15;
-        totalTax += (taxableIncome - 1200000) * 0.20;
+        totalTax += (800000 - 400000) * 0.05;
+        totalTax += (1200000 - 800000) * 0.10;
+        totalTax += (1600000 - 1200000) * 0.15;
+        totalTax += (taxableIncome - 1600000) * 0.20;
+    } else if (taxSlab == 25) {
+        totalTax += (800000 - 400000) * 0.05;
+        totalTax += (1200000 - 800000) * 0.10;
+        totalTax += (1600000 - 1200000) * 0.15;
+        totalTax += (2000000 - 1600000) * 0.20;
+        totalTax += (taxableIncome - 2000000) * 0.25;
     } else if (taxSlab == 30) {
-        totalTax += (700000 - 300000) * 0.05;
-        totalTax += (1000000 - 700000) * 0.10;
-        totalTax += (1200000 - 1000000) * 0.15;
-        totalTax += (1500000 - 1200000) * 0.20;
-        totalTax += (taxableIncome - 1500000) * 0.30;
+        totalTax += (800000 - 400000) * 0.05;
+        totalTax += (1200000 - 800000) * 0.10;
+        totalTax += (1600000 - 1200000) * 0.15;
+        totalTax += (2000000 - 1600000) * 0.20;
+        totalTax += (2400000 - 2000000) * 0.25;
+        totalTax += (taxableIncome - 2400000) * 0.30;
     }
 
     return totalTax;
@@ -84,9 +90,9 @@ void MainWindow::calculateTax()
     int totalTax = 0;
     QString result;
 
-    if (taxableIncome <= 300000) {
+    if (taxableIncome <= 400000) {
         result = "Tax liability: Rs 0 (Income is below the tax-free limit)";
-    } else if (taxableIncome <= 700000) {
+    } else if (taxableIncome <= 1200000) {
         result = "Tax liability: Rs 0 (Eligible for rebate under Section 87A)";
     } else {
         totalTax = taxCalculator(taxableIncome, taxSlab);
